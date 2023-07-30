@@ -8,6 +8,24 @@
   font-size: 1.25rem;
 }
 
+#about-kurs {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.about-kurs-text {
+  font-size: 1.5rem;
+}
+.about-kurs-item p{
+  font-size: 1.25rem;
+}
+.learning {
+  font-size: 1.25rem;
+}
+.card {
+  border-radius: 30px;
+  height: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .quote-text {
     font-size: 1rem;
@@ -15,16 +33,37 @@
   .author {
     font-size: .9rem;
   }
+  .about-kurs-text {
+    font-size: 1rem;
+  }
+  .about-kurs-item h3{
+    font-size: 1.25rem;
+  }
+  .about-kurs-item p{
+    font-size: 1rem;
+  }
+  .learning {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
-  .quote {
-    justify-content: start !important;
-  }
   .quote-text {
     font-size: .85rem;
   }
   .author {
+    font-size: .75rem;
+  }
+  .about-kurs-text {
+    font-size: .75rem;
+  }
+  .about-kurs-item h3{
+    font-size: 1rem;
+  }
+  .about-kurs-item p{
+    font-size: .75rem;
+  }
+  .learning {
     font-size: .75rem;
   }
 }
