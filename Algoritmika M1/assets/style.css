@@ -1,69 +1,68 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+section {
+  padding: 6rem 0;
+}
 .quote-box {
   background: #1E4681;
   color: #FFF;
 }
-.quote-text {
-  font-size: 1.25rem;
-}
-
-#about-kurs {
-  margin-top: 6rem;
-  margin-bottom: 5rem;
-}
 .about-kurs-text {
   font-size: 1.5rem;
 }
-.about-kurs-item p{
-  font-size: 1.25rem;
-}
-.learning {
+.text {
   font-size: 1.25rem;
 }
 .card {
   border-radius: 30px;
   height: 100%;
 }
+#feedback {
+  background: #EFEFEF;
+  margin-bottom: 0;
+}
+.feedback-box {
+  border-radius: 30px;
+  background: #FFF;
+}
+.fb-social-icon i{
+  font-size: 2rem;
+}
+#price {
+  background: #9DC9C8;
+  margin: 0;
+}
+footer {
+  padding: 4rem 0 1.5rem;
+  background: #000000;
+  color: #FFF;
+}
 
 @media only screen and (max-width: 768px) {
-  .quote-text {
+  .text {
     font-size: 1rem;
   }
-  .author {
-    font-size: .9rem;
+  .fb-social-icon i{
+    font-size: 1.5rem;
   }
-  .about-kurs-text {
-    font-size: 1rem;
-  }
-  .about-kurs-item h3{
+  .fb-title {
     font-size: 1.25rem;
-  }
-  .about-kurs-item p{
-    font-size: 1rem;
-  }
-  .learning {
-    font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .quote-text {
-    font-size: .85rem;
+  .tex {
+    font-size: .5rem;
   }
-  .author {
-    font-size: .75rem;
-  }
-  .about-kurs-text {
-    font-size: .75rem;
-  }
-  .about-kurs-item h3{
+  .fb-social-icon i{
     font-size: 1rem;
   }
-  .about-kurs-item p{
-    font-size: .75rem;
-  }
-  .learning {
-    font-size: .75rem;
+  .fb-title {
+    font-size: 1rem;
   }
 }
