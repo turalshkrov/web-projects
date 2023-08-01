@@ -7,3 +7,6 @@ link: https://64c76ba8d8f4f30487568008--aquamarine-bubblegum-05bf5e.netlify.app/
 
 2. Sign up form
 link: https://64c7f263476f552e34c14930--ubiquitous-cucurucho-5d191a.netlify.app/
+
+3. Admin Dashboard link: 
+link: https://64c8fd2c13379a076d316e48--storied-klepon-5b97ac.netlify.app/
